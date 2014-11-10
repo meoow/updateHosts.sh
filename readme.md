@@ -14,3 +14,5 @@ su -c './updateHosts.sh'
 # You can also pass additional file arguments to add more IP - Domain Name pairs, the files should be in same format as the hosts file.
 sudo ./updateHosts.sh "fileA_hosts" ["fileB_hosts" ...]
 ```
+
+Script was tested on Linux, OS X, iOS(need JB).
